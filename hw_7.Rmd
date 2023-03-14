@@ -49,9 +49,17 @@ You can install 'vegan' from either:
 
 
 # _Review_
-From my review of the **vegan** package, the primary purpose is to analyze community ecology data, or the data exploring multiple species or identities across an area (sample, site, region, etc.). This package is capable of 
+From my review of the **vegan** package, the primary purpose is to analyze community ecology data, or the data exploring multiple species or identities across an area (sample, site, region, etc.). This package is capable of: 
+
 1. diversity analyses
 2. community ordinations
 3. dissimilarity analyses
 
+What I really enjoy about this package is the broad diversity of scientists that use this package for similar questions but on very different scales (microbiome diversity analyses versus plant community analyses post-fire). I also like that this package is pretty straight forward to use, and due to the large user base, is often updated and issues with functions tend to be resolved quickly. I also like the flexibility of making ordinations and other cool figures (*e.g.*, heatmaps, etc.), as I have struggled sometimes with `ggplot` plotting  from my community data set. 
+
+On the flip side, there are some certain functions that are meant to graph easily that I have an easier time with `ggplot`. 
+
+This package was relatively easy to learn. I feel strongly on this, coming from myself who had never coded before coming to start my Master's program. Once my research questions were nailed down in my first summer before starting, I realized I would be primarily using this package to work and analyze my field data (species percent cover (206 species/columns) per plot (86 sites/rows)). 
+
+I would strongly recommend this package to anyone who has community ecology or multivariate data.
 
