@@ -1,0 +1,57 @@
+---
+title: "assignment-7"
+author: "Liliana Rangel-Parra"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# _Package Title_
+**vegan**
+
+# _Location_
+You can install 'vegan' from either:
+
+### CRAN directly
+1. RStudio interface packages tab
+2. ` r install.packages("vegan")`
+3. CRAN website (https://cran.r-project.org)
+
+### GitHub
+1. git command: CMD build -> R CMD INSTALL
+2. ` r remotes::install_github("vegandevs/began")`
+
+# _Vignettes_
+### FAQ-vegan: FAQ and typical community ecology analyses help using metaMDS()
+
+1. Dependencies
+- depends on the **permute** package
+- sometimes depends on the **MASS**,
+**mgcv**, **parallel**, **cluster**, **lattice** and **tcltk** packages
+
+2. Similar packages
+`Environmetrics`, `Multivariate` and `Spatial`
+
+3. Other documentaion
+
+4. [**vegan** homepage](https://github.com/vegandevs/vegan)
+
+
+# _Applications_
+- commonly used by community ecologists
+- dealing with multivariate data, where data can consist of species (columns) by site/sample (rows)
+- multivariate analyses for ecological communities + tools for diversity analyses
+- often used to perform ordination fugures
+- from microbiology to ecosystem biology, and beyond biology
+
+
+# _Review_
+From my review of the **vegan** package, the primary purpose is to analyze community ecology data, or the data exploring multiple species or identities across an area (sample, site, region, etc.). This package is capable of 
+1. diversity analyses
+2. community ordinations
+3. dissimilarity analyses
+
+
